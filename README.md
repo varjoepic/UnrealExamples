@@ -33,7 +33,7 @@ Follow the next steps to get example scene and features running with Varjo HMD.
 
 ###### Get started with the example project
 
-- Right click the VarjoSample.uproject file in VarjoUnrealExamples\VarjoSample, select
+- Right click the VarjoSample.uproject file in UnrealExamples\VarjoSample, select
   "Switch Unreal Engine version..." and select the engine folder compiled by you from the list.
 
 - Open the project by double clicking the .uproject file.
@@ -56,13 +56,13 @@ Follow the next steps to get example scene and features running with Varjo HMD.
   from the scene floating in the air.
 	
 - The blueprint that contains all of the controller logic can be found from following file:
-  VarjoUnrealExamples\VarjoSample\Content\ControllerSetup\VRPawn.uasset.
+  UnrealExamples\VarjoSample\Content\ControllerSetup\VRPawn.uasset.
 	
 - The blueprint which handles the eye tracking interactions can be found from following file:
-  VarjoUnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\ActorSelectionBP.uasset.
+  UnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\ActorSelectionBP.uasset.
   
 - The blueprint which saves the eye tracking data can be found from following blueprint function library file:
-  VarjoUnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\BPFL_Util.uasset.
+  UnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\BPFL_Util.uasset.
 
 - The Level Blueprint of the Minimal_Default level handles device button events and eye tracking
   calibration requests. You can open the Level Blueprint editor from:
