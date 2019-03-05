@@ -9,7 +9,7 @@ Using Varjo Eye Tracking API, device buttons and Vive controllers with Unreal En
 Follow the next steps to get example scene and features running with Varjo HMD.
 ###### Prerequisites:
 
-- Varjo environment installed and Varjo Unreal Engine 4.21 compiled from separate repository.
+- Varjo environment installed and Varjo Unreal Engine 4.21 compiled from separate repository here https://github.com/varjoepic/UnrealEngine
 
 ###### Install Steam
 
@@ -67,6 +67,12 @@ Follow the next steps to get example scene and features running with Varjo HMD.
 - The Level Blueprint of the Minimal_Default level handles device button events and eye tracking
   calibration requests. You can open the Level Blueprint editor from:
   Blueprints -> Open Level Blueprint
+
+###### Keyboard controls
+- WASD - movement
+- QE - up/down
+- ZX - rotate
+- ESC - quit
 	
 -----------------------------------------------------------------------------------------------------
 
