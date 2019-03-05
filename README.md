@@ -56,10 +56,13 @@ Follow the next steps to get example scene and features running with Varjo HMD.
   from the scene floating in the air.
 	
 - The blueprint that contains all of the controller logic can be found from following file:
-  UnrealExamples\VarjoSample\Content\ControllerSetup\VRPawn.uasset.
+  UnrealExamples\VarjoSample\Content\ControllerSetup\BP_VR_Pawn.uasset.
+  
+- The blueprint that contains default input logic including keyboard controls can be found from following file:
+  UnrealExamples\VarjoSample\Content\ControllerSetup\BP_VR_Controller.uasset.
 	
 - The blueprint which handles the eye tracking interactions can be found from following file:
-  UnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\ActorSelectionBP.uasset.
+  UnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\BP_Actor_Selection.uasset.
   
 - The blueprint which saves the eye tracking data can be found from following blueprint function library file:
   UnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\BPFL_Util.uasset.
