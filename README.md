@@ -64,8 +64,9 @@ Follow the next steps to get example scene and features running with Varjo HMD.
 - The blueprint which handles the eye tracking interactions can be found from following file:
   UnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\BP_Actor_Selection.uasset.
   
-- The blueprint which saves the eye tracking data can be found from following blueprint function library file:
+- The blueprint which saves the eye tracking data can be found from following blueprint function library file: 
   UnrealExamples\VarjoSample\Content\VarjoContent\Blueprints\BPFL_Util.uasset.
+  At the end of every session, GazeData file will be saved in UnrealExamples\VarjoSample\Saved\Gaze_YYYYMMDD_HHMMSS.csv
 
 - The Level Blueprint of the Minimal_Default level handles device button events and eye tracking
   calibration requests. You can open the Level Blueprint editor from:
