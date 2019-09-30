@@ -13,18 +13,22 @@
 			]
 		}
 	],
-	"Plugins": [
-		{
-			"Name": "OculusVR",
-			"Enabled": true
-		},
-		{
-			"Name": "SteamVR",
-			"Enabled": true
-		},
-		{
-			"Name": "Varjo",
-			"Enabled": true
-		}
-	]
+  "Plugins": [
+    {
+      "Name": "OculusVR",
+      "Enabled": true
+    },
+    {
+      "Name": "SteamVR",
+      "Enabled": true
+    },
+    {
+      "Name": "OpenXR",
+      "Enabled": true
+    },
+    {
+      "Name": "Varjo",
+      "Enabled": false
+    }
+  ]
 }
