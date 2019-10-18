@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{070C9A91-4C4D-D7C5-F4DA-3EA135BEED52}",
+	"EngineAssociation": "4.23",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -13,22 +13,18 @@
 			]
 		}
 	],
-  "Plugins": [
-    {
-      "Name": "OculusVR",
-      "Enabled": true
-    },
-    {
-      "Name": "SteamVR",
-      "Enabled": true
-    },
-    {
-      "Name": "OpenXR",
-      "Enabled": true
-    },
-    {
-      "Name": "Varjo",
-      "Enabled": false
-    }
-  ]
+	"Plugins": [
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true
+		}
+	]
 }
