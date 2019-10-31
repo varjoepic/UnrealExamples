@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{070C9A91-4C4D-D7C5-F4DA-3EA135BEED52}",
+	"EngineAssociation": "{2E375E24-46EE-05C2-D5CB-59B291524B73}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -16,15 +16,27 @@
 	"Plugins": [
 		{
 			"Name": "OculusVR",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
 		},
 		{
 			"Name": "SteamVR",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
+			]
 		},
 		{
 			"Name": "Varjo",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/845c7b1ffc874aecbd044de456ca0b63"
 		}
 	]
 }
