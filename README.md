@@ -1,5 +1,6 @@
 # Varjo Unreal Examples
-Unreal example projects. Example folder(s) explained under:
+
+Unreal example projects. Folders are explained under:
 
 -----------------------------------------------------------------------------------------------------
 
