@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{2E375E24-46EE-05C2-D5CB-59B291524B73}",
+	"EngineAssociation": "{4269350D-493C-45E6-4ED5-95BC56ABC8BD}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -16,7 +16,7 @@
 	"Plugins": [
 		{
 			"Name": "OculusVR",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win32",
 				"Win64",
@@ -25,7 +25,7 @@
 		},
 		{
 			"Name": "SteamVR",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win32",
 				"Win64",
