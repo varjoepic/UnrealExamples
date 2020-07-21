@@ -6,8 +6,8 @@ public class VarjoSample : ModuleRules
 {
 	public VarjoSample(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
+		PCHUsage = PCHUsageMode.NoPCHs;
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "VarjoHMD", "VarjoEyeTracker" });
-        //PrivateDependencyModuleNames.AddRange(new string[] { "HeadMountedDisplay" });
 	}
 }
