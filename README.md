@@ -5,11 +5,12 @@ Unreal example projects. Example folder(s) explained under:
 
 ## VarjoSample
 
-Using Varjo Eye Tracking API, device buttons and Vive controllers with Unreal Engine 4.21 and VarjoHMD.
+Using Varjo Headset with Unreal Engine.
 Follow the next steps to get example scene and features running with Varjo HMD.
+
 ###### Prerequisites:
 
-- Varjo environment installed and Varjo Unreal Engine 4.21 compiled from separate repository here https://github.com/varjoepic/UnrealEngine
+- Varjo environment installed and Varjo Unreal Engine compiled from separate repository here https://github.com/varjoepic/UnrealEngine
 
 ###### Install Steam
 
