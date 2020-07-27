@@ -2,6 +2,8 @@
 
 #include "VarjoBlueprintFunctionLibrary.h"
 
+#include "Engine/World.h"
+
 DEFINE_LOG_CATEGORY_STATIC(LogVarjoBlueprint, Warning, All);
 
 AActor* UVarjoBlueprintFunctionLibrary::CloneActor(AActor * pActor)
