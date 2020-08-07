@@ -12,6 +12,6 @@ class VARJOSAMPLE_API UVarjoBlueprintFunctionLibrary : public UBlueprintFunction
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintCallable, Category = "Varjo")
+	UFUNCTION(BlueprintCallable, Category = "Varjo Sample")
 	static AActor* CloneActor(AActor* pActor);
 };
